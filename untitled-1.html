@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html class="text-break">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>First</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome.min.css">
+    <link rel="stylesheet" href="/assets/fonts/fontawesome5-overrides.min.css?h=18313f04cea0e078412a028c5361bd4e">
+    <link rel="stylesheet" href="/assets/css/styles.min.css?h=e01ca9ba8fb5a958afcc7d8df8e5865f">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+</head>
+
+<body>
+    <!-- Start: Navigation Clean -->
+    <nav class="navbar navbar-light navbar-expand-md navigation-clean">
+        <div class="container"><a class="navbar-brand" href="#">Login Page</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse"
+                id="navcol-1">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="#">First Item</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">Second Item</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">Third Item</a></li>
+                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">Dropdown </a>
+                        <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">First Item</a><a class="dropdown-item" role="presentation" href="#">Second Item</a><a class="dropdown-item" role="presentation" href="#">Third Item</a></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End: Navigation Clean -->
+    <!-- Start: Danger Alert Pop-up Button -->
+    <div class="container d-sm-flex justify-content-sm-center" id="close-Button">
+        <div class="modal fade" role="dialog" tabindex="-1" id="closealert">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-body border rounded shadow-lg d-sm-flex justify-content-sm-start align-items-sm-center" id="closealert" style="color: red;height: 70px;background-color: rgb(220,53,69);">
+                        <div class="row" style="width: 100%;height: 70px;background-color: white;">
+                            <div class="col-sm-3 text-danger d-sm-flex justify-content-sm-center align-items-sm-center" style="height: 70px;"><i class="fa fa-close" style="font-size: 60px;"></i></div>
+                            <div class="col text-danger d-sm-flex justify-content-sm-start align-items-sm-center" style="background-color: white;height: 70px;"><span style="font-size: 25px;"><strong>Close!</strong> This is a alert</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End: Danger Alert Pop-up Button -->
+    <!-- Start: Login Animate -->
+    <div data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100" data-aos-once="true" class="login-card" style="font-family:Roboto, sans-serif;">
+        <p class="profile-name-card"> <i class="fa fa-unlock-alt d-inline" style="width:0;height:0;font-size:56px;color:rgb(104,145,162);"></i></p>
+        <form class="form-signin"><span class="reauth-email" style="margin:11px;"> </span><input class="form-control" type="email" id="inputEmail" required="" placeholder="Username" autofocus="" minlength="4" maxlength="4" pattern="Sven"><input class="form-control" type="password"
+                id="inputPassword" required="" placeholder="Password" minlength="8" maxlength="8" pattern="21082005"><a class="btn btn-primary btn-block btn-sm border rounded btn-signin" role="button" data-toggle="tooltip" data-bs-tooltip="" data-placement="bottom"
+                data-aos="fade" data-aos-delay="3000" style="font-family: Roboto, sans-serif;font-size: 16px;font-weight: normal;font-style: normal;filter: sepia(19%);" href="/index.html" target="_blank">Sign in</a></form>
+        <!-- Start: AXY Modal Demo Button -->
+        <div>
+            <div class="modal fade" role="dialog" tabindex="-1" id="myModal">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4>Modal Title</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                        <div class="modal-body">
+                            <p class="text-center text-muted">Description </p>
+                        </div>
+                        <div class="modal-footer"><button class="btn btn-light" data-dismiss="modal" type="button">Close</button><button class="btn btn-primary" type="button">Save</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End: AXY Modal Demo Button -->
+    </div>
+    <!-- End: Login Animate -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/js/smart-forms.min.js?h=18313f04cea0e078412a028c5361bd4e"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+    <script src="/assets/js/script.min.js?h=e154e18cddae6285e47376a972e5d53b"></script>
+</body>
+
+</html>
